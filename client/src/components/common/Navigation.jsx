@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useContext, useState } from "react"
 import { Link, useNavigate } from "react-router"
 import { FaBars, FaTimes } from "react-icons/fa"
 import { AuthContext } from "../auth/AuthContext"
